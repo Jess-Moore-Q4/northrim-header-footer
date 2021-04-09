@@ -1,0 +1,23 @@
+{
+  "name": "northrim-header-footer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass --source-map true sass/style.scss -wo dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jess-Moore-Q4/northrim-header-footer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jess-Moore-Q4/northrim-header-footer/issues"
+  },
+  "homepage": "https://github.com/Jess-Moore-Q4/northrim-header-footer#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
