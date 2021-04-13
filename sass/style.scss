@@ -1,0 +1,57 @@
+@import './variables';
+@import './bundle';
+
+html {
+    font-size: 16px;
+}
+
+
+.module--corporate {
+    font-family: neue-haas-unica, sans-serif;
+
+    .copyright {
+        display: block;
+    }
+
+    i.fa {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.corporate--header {
+    position: relative;
+    z-index: 12;
+
+    .navbar {
+        @media (max-width: 992px) {
+            justify-content: normal;
+        }
+    }
+
+    .navbar-collapse {
+        max-height: unset;
+    }
+
+    .navbar-nav ul {
+        position: static;
+    }
+
+    .navbar-brand {
+        height: auto;
+    }
+
+    .dropdown-menu {
+        box-shadow: none;
+    }
+
+    .search_main .fa-search {
+        font-size: 16px;
+        color: #4d3653;
+    }
+}

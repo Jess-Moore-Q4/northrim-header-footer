@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass --source-map true sass/style.scss -wo dist/"
+    "watch:sass": "node-sass --source-map true --output-style compressed sass/style.scss -wo dist/"
   },
   "repository": {
     "type": "git",
